@@ -85,3 +85,46 @@ But for those not using the Creality Wiring, the above example shows the wiring 
 
 ![IMAGE-ENDSTOPpinout](Images/ENDSTOPpinout.png)
 
+# Fans 
+
+Without a doubt, having three PWM controllable fan outputs on the SKR Mini E3 V3 is perfect for using thermostatically controlled fans to save on both noise and power.
+Particularly important is that the Voltage of fans must be the same as the power supply connected to the mainboard. For instance, if using a 12 Volt power supply, you will need 12V fans. Similarly, if using a 24 Volt power supply, you will need 24V fans.
+
+## Part Cooling Fan
+
+
+![FanCon](Images/Bigtree-Tech-BTT-SKR-Mini-E3-V3-part-cooling-fan-FAN0.jpg)
+
+By default, the connection for the cooling fan for the filament is FAN0, with the red positive (+) wire to the left and the black negative (-/GND) to the right.
+
+![PartcoolingFan](Images/PartFanPinout.jpg)
+
+
+## Board Controller Cooling Fan
+Additionally, the **FAN1** connection is located idyllically for use with the fan that helps keep the mainboard cool. Like the part cooling fan, the polarity is with the red positive (+) wire to the left and the black negative (-/GND) to the right.
+
+![PartcoolingFan](Images/PartFanPinout.jpg)
+
+## Hot End Heatsink Fan
+
+Finally, the fan connection for the hotend heatsink fan is the **FAN2** connection. Once again, the red positive (+) wire to the left and the black negative (-/GND) to the right
+
+![PartcoolingFan](Images/PartFanPinout.jpg)
+
+# Bltouch Wiring
+
+Because there are many clones of the BLTouch, their wiring could be different to a genuine Antclabs BLTouch probe. However, there tend to be two main patterns to the wiring schemes. Firstly there is the authentic Antclabs colour scheme, followed by an alternative colour coding of the wiring used by most clones. Because of this, I have listed these two main variants below.
+
+## Antclabs BLTouch wiring
+
+![AntClabs](Images/Bigtree-Tech-BTT-SKR-Mini-E3-V3-Antclabs-genuine-BLTouch-wiring.jpg)
+
+With a pinout of : 
+
+![Pinout](Images/antclabsPinout.jpg)
+
+## Alternative BlTouch Colour Code Wiring
+
+Furthermore, I have listed both the original and alternative wiring colour codings from top to bottom. Importantly the bottom wire is GND (Brown or Blue) and is closest to the thermistor connections, and the White probe SIGNAL is nearest the USB port.
+
+![ALT](Images/BLtouchAlt.jpg)
